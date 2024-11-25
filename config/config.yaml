@@ -1,0 +1,20 @@
+app:
+  name: {{app-name}}
+  version: {{app-version}}
+  port:   {{app-port}}
+  env: {{app-env}}
+
+log:
+  level: {{log-level}}
+sqlite:
+  dbname: {{sqlite-dbname}}
+  dbpath: {{sqlite-dbpath}}
+  maxIdleConns: {{sqlite-maxIdleConns}}
+  maxOpenConns: {{sqlite-maxOpenConns}}
+  maxLifeTimeMinutes: {{sqlite-maxLifeTimeMinutes}}
+
+jsonDataFiles:
+    pathFile: {{jsonDataFiles-pathFile}}
+    nameFile: {{jsonDataFiles-nameFile}}
+secrets:
+  jwt-key: {{secrets-jwt-key}}
